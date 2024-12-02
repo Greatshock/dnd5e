@@ -748,6 +748,10 @@
           "label": "DC Formula",
           "hint": "Custom formula or flat value for defining the check DC."
         }
+      },
+      "visible": {
+        "label": "Visible to All",
+        "hint": "Display the rolling button in chat for all players."
       }
     }
   },
@@ -2623,6 +2627,10 @@
         },
         "CustomFormula": "Custom Formula",
         "DefaultFormula": "8 + @mod + @prof"
+      },
+      "visible": {
+        "label": "Visible to All",
+        "hint": "Display the rolling button in chat for all players."
       }
     }
   },
@@ -3415,11 +3423,11 @@
       },
       "prompt": {
         "label": "Utility Roll Prompt",
-        "hint": "Should the roll configuration dialog be displayed when rolling?"
+        "hint": "Display the roll configuration dialog when rolling."
       },
       "visible": {
         "label": "Visible to All",
-        "hint": "Should the rolling button be visible to all players?"
+        "hint": "Display the rolling button in chat for all players."
       }
     }
   }
